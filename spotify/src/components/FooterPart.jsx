@@ -1,6 +1,11 @@
-import { Footer } from "react-bootstrap";
-import { BsPlayCircleFill } from "react-icons/bs";
-import { FaStepForward } from "react-icons/fa";
+import "bootstrap/dist/css/bootstrap.min.css";
+import {
+  BsPlayCircleFill,
+  BsFillVolumeUpFill,
+  BsDisplayFill,
+} from "react-icons/bs";
+import { CgPlayBackwards, CgPlayForwards, CgPlayList } from "react-icons/cg";
+
 const FooterPart = () => {
   return (
     <footer className="mt-2">
@@ -20,7 +25,10 @@ const FooterPart = () => {
           </div>
           <div className="col-md-7">
             <div className="icons">
+              <CgPlayBackwards />
+
               <BsPlayCircleFill />
+              <CgPlayForwards />
             </div>
             <input
               type="range"
@@ -33,7 +41,9 @@ const FooterPart = () => {
             />
           </div>
           <div className="icons1 col-md-2">
-            <FaStepForward />
+            <CgPlayList />
+            <BsDisplayFill />
+            <BsFillVolumeUpFill />
             <div className="slidecontainer">
               <input
                 type="range"

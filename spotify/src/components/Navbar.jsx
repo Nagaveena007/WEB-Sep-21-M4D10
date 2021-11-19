@@ -1,4 +1,7 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import { Row, Col } from "react-bootstrap";
+import spotify from "../assets/spotify.png";
+import home from "../assets/spotify.png";
 const Navbar = () => {
   return (
     /*  <!-- VERTICAL NAVBAR --> */
@@ -11,12 +14,7 @@ const Navbar = () => {
               <div class="menu-nav">
                 <div class="links1-nav">
                   <div id="logo">
-                    <img
-                      src="assets/spotify.png"
-                      width="150px"
-                      height="60px"
-                      alt="..."
-                    />
+                    <img src={home} width="150px" height="60px" alt="..." />
                   </div>
                 </div>
                 <div class="links-nav">
@@ -164,7 +162,7 @@ const Navbar = () => {
           </div>
           {/*     Horizontal navbar */}{" "}
         </div>
-        <div className="col-8 horizontalnav" id="">
+        {/*  <div className="col-8 horizontalnav" id="">
           <div id="content" class="w-85 h-100">
             <div class="h-100 overflow-auto">
               <nav
@@ -180,7 +178,6 @@ const Navbar = () => {
                     type="button"
                     id="dropdownMenuButton1"
                     data-toggle="dropdown"
-                    /*  style={{border-radius: '2rem'}} */
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
@@ -189,7 +186,6 @@ const Navbar = () => {
                       height="30px"
                       alt=""
                       id="imgnav"
-                      /*  style={{border-radius: '2rem'}} */
                     />
                     <span id="username1"></span>
                   </button>
@@ -217,7 +213,7 @@ const Navbar = () => {
               </nav>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
