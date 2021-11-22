@@ -1,0 +1,13 @@
+.header__wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  margin: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+
+  color: white;
+  text-transform: uppercase;
+  font-size: 10pt;
+}

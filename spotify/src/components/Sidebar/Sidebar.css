@@ -1,0 +1,7 @@
+.sidebar__wrap {
+  height: calc(100vh - 100px);
+  width: 200px;
+  background-color: #060606;
+  position: fixed;
+  left: 0;
+}
