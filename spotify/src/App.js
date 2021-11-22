@@ -5,6 +5,7 @@ import Home from "./views/Homepage/Home";
 import Player from "./components/Player/Player";
 import Sidebar from "./components/Sidebar/Sidebar";
 import AlbumPage from "./views/AlbumPage/AlbumPage";
+import Artist from "./views/Artist/Artist";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/album/:id" element={<AlbumPage />} />
+        <Route path="/artist/:id" element={<Artist />} />
       </Routes>
     </BrowserRouter>
   );

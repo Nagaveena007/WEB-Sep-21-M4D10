@@ -1,4 +1,25 @@
 .single__wrap {
   width: 60%;
   height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.title-and-artist {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  text-align: left;
+  width: 100%;
+}
+span:first-of-type {
+  font-weight: bold;
+}
+.duration {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  color: white;
+  justify-content: flex-end;
 }
